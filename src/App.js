@@ -16,6 +16,7 @@ export default function App() {
     })["states"];
     setCountrySelected(countryName);
     setStates([...statesOfCurrentCountry]);
+    setCities([]);
   };
 
   const setCitiesFromState = (stateName) => {
