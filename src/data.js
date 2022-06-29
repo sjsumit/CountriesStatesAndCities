@@ -34,13 +34,26 @@ let data = {
       states: [
         {
           id: 202,
-          name: "abc",
+          name: "New South Wales",
           cities: [
             {
               id: 601,
               name: "Sydney"
             },
-            { id: 602, name: "Brisbane" }
+            {
+              id: 602,
+              name: "Canberra"
+            }
+          ]
+        },
+        {
+          id: 203,
+          name: "Southern Australia",
+          cities: [
+            {
+              id: 621,
+              name: "Adelaide"
+            }
           ]
         }
       ]
